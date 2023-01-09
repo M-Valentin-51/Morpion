@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+}
+#player{
+    text-align: left;
+    font-size: 20px;
+}
+#plateau{
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid red;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#plateau > div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+#div1{
+    top: 0px;
+    left: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#div2{
+    top: 0px;
+    left: 200px;
+}
+#div3{
+    top: 100px;
+    left: 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#div4{
+    top: 100px;
+    left: 100px;
+    border: 1px solid black;
+}
+#div5{
+    top: 100px;
+    left: 200px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#div6{
+    top: 200px;
+    left: 0px;
+}
+#div7{
+    top: 200px;
+    left: 100px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#div8{
+    top: 200px;
+    left: 200px;
+}
